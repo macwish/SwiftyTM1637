@@ -10,7 +10,7 @@
 
 public extension SevenSegment {
   
-  public static let hexDigits : [ SevenSegment ] = [
+    static let hexDigits : [ SevenSegment ] = [
     [ .upperDash,  .upperLeft,  .upperRight,   // 0
       .lowerLeft,  .lowerRight, .lowerDash ],
     [ .upperRight, .lowerRight            ],   // 1
