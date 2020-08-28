@@ -9,9 +9,9 @@ import Foundation
 
 public extension SevenSegment {
   
-  public static let dash : SevenSegment = [ .middleDash ] // -
+    static let dash : SevenSegment = [ .middleDash ] // -
 
-  public static let letters : [ Character : SevenSegment ] = [
+    static let letters : [ Character : SevenSegment ] = [
     "A": SevenSegment(hexDigit: 0xA),
     "B": SevenSegment(hexDigit: 0xB),
     "C": SevenSegment(hexDigit: 0xC),
